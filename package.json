@@ -1,0 +1,19 @@
+{
+  "name": "node-socket-redis-chat-scalegrid",
+  "version": "0.0.1",
+  "description": "A realtime chat application using Redis, Node.js and Socket.IO",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.10.2",
+    "expressjs": "^1.0.1",
+    "redis": "^2.7.1",
+    "socket.io": "^1.7.4"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "4.1.1"
+  }
+}
